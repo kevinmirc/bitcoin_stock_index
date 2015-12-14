@@ -1,0 +1,8 @@
+require 'yaml'
+require 'open-uri'
+require 'pry'
+require 'rest-client'
+require 'json'
+require_relative '../lib/cli'
+require_relative '../lib/data'
+require_relative '../lib/scraper'

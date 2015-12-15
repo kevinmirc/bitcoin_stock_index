@@ -53,7 +53,7 @@ class CLI
         puts "Not a valid Command. Type 'help' for list of commands."
         puts ""
       end
-      puts "Enter another command."
+      puts "Enter another command:"
     end
   end
 
@@ -82,8 +82,7 @@ class CLI
   def options_help
     puts ""
     puts "Enter 'back' to return to the main menu."
-    puts "Type the number of the funtion you'd like to run"
-    puts "Type 'options' to see list of available options"
+    puts "Type the number of the data you'd like to run (Type 'options' list types of data points)."
     puts ""
   end
 end

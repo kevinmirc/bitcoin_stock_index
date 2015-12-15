@@ -1,2 +1,4 @@
-require '../config/environment'
-CLI.new
+#!/usr/bin/env ruby
+require_relative '../config/environment'
+c = CLI.new
+c.run
